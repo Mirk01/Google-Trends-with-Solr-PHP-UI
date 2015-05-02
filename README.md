@@ -20,7 +20,7 @@ export CLASSPATH=$HOME/SOLR-DIRECTORY/dist/*:.:$HOME/SOLR-DIRECTORY/dist/solrj-l
 
 ###Frontend
 ---------
-* Copy the Solr-PHP-UI modified version on your web servers working folder;
+1. Copy the Solr-PHP-UI modified version on your web servers working folder;
 * check SOLR-CORE-NAME (30th line) in SOLR-PHP-UI-DIRECTORY/config/config.php;
 * That's it! Check SOLR-PHP-UI-DIRECTORY/templates/view.list.php to modify the chart and view.index.topbar.php, in the same directory, to modify the WEBSITE TITLE.
 
@@ -28,6 +28,6 @@ export CLASSPATH=$HOME/SOLR-DIRECTORY/dist/*:.:$HOME/SOLR-DIRECTORY/dist/solrj-l
 ###Suggestions, useful links
 ---------
 It could be useful to add these lines to $HOME/.bashrc to have some shortcuts:
-*>alias start='$HOME/SOLR-DIRECTORY/bin/solr start'
-*>alias stop='$HOME/SOLR-DIRECTORY/bin/solr stop -all'
-*>alias update='$HOME/SOLR-DIRECTORY/bin/post -c SOLR-CORE-NAME -Dauto -Drecursive $HOME/DATA-DIRECTORY; cd; java Update' //that's working only if Update.java is inside $HOME
+* >alias start='$HOME/SOLR-DIRECTORY/bin/solr start'
+* >alias stop='$HOME/SOLR-DIRECTORY/bin/solr stop -all'
+* >alias update='$HOME/SOLR-DIRECTORY/bin/post -c SOLR-CORE-NAME -Dauto -Drecursive $HOME/DATA-DIRECTORY; cd; java Update' //that's working only if Update.java is inside $HOME
