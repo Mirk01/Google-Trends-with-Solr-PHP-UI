@@ -32,7 +32,7 @@ $cfg['solr']['core'] = 'SOLR-CORE-NAME';
 //
 // Additional facets (f.e. fields imported by some connector which should be shown in the sidebar)
 //
-$cfg['facets']['DATE'] = array ('label'=>'Additional own facet');
+$cfg['facets']['FIELD'] = array ('label'=>'Additional own facet');
 // $cfg['facets']['anotherfacet_s'] = array ('label'=>'Another additonal facet');
 
 
