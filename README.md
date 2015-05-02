@@ -6,6 +6,7 @@ A basic UI to search a keyword &amp; visualize its frequencei in a chart
 All words in maiusc can be changed with according to your requiriments
 
 /** Backend **/ 
+---------
 1. Extract or download Solr; //I used solr-5.0.0 
 2. add the CLASSPATH (it is needed if you want to use Update.java) with the below shell command
 export CLASSPATH=$HOME/SOLR-DIRECTORY/dist/*:.:$HOME/SOLR-DIRECTORY/dist/solrj-lib/*
