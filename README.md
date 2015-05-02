@@ -4,7 +4,7 @@ A basic UI to search a keyword &amp; visualize its frequencei in a chart
 
 ## How to do it
 
----> All words in maiusc can be changed with according to your requiriments <---
+---> All capital words can be changed according to your requiriments <---
 
 
 
