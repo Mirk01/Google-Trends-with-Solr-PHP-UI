@@ -1,11 +1,11 @@
 # Google-Trends-with-Solr-PHP-UI
 A basic UI to search a keyword &amp; visualize its frequencei in a chart
 
-# To do list to install, configure and set a new machine
+# How to do it
 
-All words in maiusc can be changed with according to your requiriments
+/******* All words in maiusc can be changed with according to your requiriments *******/ 
 
-/** Backend **/ 
+Backend
 ---------
 1. Extract or download Solr; //I used solr-5.0.0 
 2. add the CLASSPATH (it is needed if you want to use Update.java) with the below shell command
@@ -15,11 +15,13 @@ $HOME/SOLR-DIRECTORY/bin/solr start; $HOME/SOLR-DIRECTORY/bin/solr create -c SOL
 4. Finally, go the directory of Update.java, check the SOLR-CORE-NAME in the 28th line and lunch it (it fixes all contents with the field DATE set to  1992-07-10T17:33:18Z).
 
 /** Frontend **/
-1. Copy the Solr-PHP-UI modified version on your web servers working folder;
+---------
+* 1. Copy the Solr-PHP-UI modified version on your web servers working folder;
 2. check SOLR-CORE-NAME (30th line) in SOLR-PHP-UI-DIRECTORY/config/config.php;
 3. That's it! Check SOLR-PHP-UI-DIRECTORY/templates/view.list.php to modify the chart and view.index.topbar.php, in the same directory, to modify the WEBSITE TITLE.
 
 /** Suggestions, useful links **/
+---------
 It could be useful to add these lines to $HOME/.bashrc to have some shortcuts:
 alias start='$HOME/SOLR-DIRECTORY/bin/solr start'
 alias stop='$HOME/SOLR-DIRECTORY/bin/solr stop -all'
