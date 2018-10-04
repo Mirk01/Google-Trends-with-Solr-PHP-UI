@@ -29,5 +29,5 @@ A basic UI to search a keyword &amp; visualize its frequencei in a chart
 ---------
 It could be useful to add these lines to $HOME/.bashrc to have some shortcuts:
 > * alias start='$HOME/SOLR-DIRECTORY/bin/solr start'
-* alias stop='$HOME/SOLR-DIRECTORY/bin/solr stop -all'
-* alias update='$HOME/SOLR-DIRECTORY/bin/post -c SOLR-CORE-NAME -Dauto -Drecursive $HOME/DATA-DIRECTORY; cd; java Update' //that's working only if Update.java is inside $HOME
+> * alias stop='$HOME/SOLR-DIRECTORY/bin/solr stop -all'
+> * alias update='$HOME/SOLR-DIRECTORY/bin/post -c SOLR-CORE-NAME -Dauto -Drecursive $HOME/DATA-DIRECTORY; cd; java Update' //that's working only if Update.java is inside $HOME
