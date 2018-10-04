@@ -8,7 +8,7 @@ A basic UI to search a keyword &amp; visualize its frequencei in a chart
 
 
 
-###Backend
+### Backend
 ---------
 1. Extract or download Solr; //I used solr-5.0.0 
 * add the CLASSPATH (it is needed if you want to use Update.java) with the following shell command
@@ -18,14 +18,14 @@ A basic UI to search a keyword &amp; visualize its frequencei in a chart
 * Finally, go the directory of ```Update.java```, check the SOLR-CORE-NAME in the 28th line and lunch it (it fixes all contents with the field DATE set to  1992-07-10T17:33:18Z).
 
 
-###Frontend
+### Frontend
 ---------
 1. Copy the Solr-PHP-UI modified version on your web servers working folder;
 * check SOLR-CORE-NAME (30th line) in ```SOLR-PHP-UI-DIRECTORY/config/config.php```;
 * That's it! Check ```SOLR-PHP-UI-DIRECTORY/templates/view.list.php``` to modify the chart and ```view.index.topbar.php```, in the same directory, to modify the WEBSITE TITLE.
 
 
-###Suggestions, useful links
+### Suggestions, useful pointers
 ---------
 It could be useful to add these lines to $HOME/.bashrc to have some shortcuts:
 > * alias start='$HOME/SOLR-DIRECTORY/bin/solr start'
